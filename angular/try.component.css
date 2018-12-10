@@ -1,0 +1,39 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);
+  margin: 16px 28px 16px 0;
+  float: left;
+  text-align:center;
+  line-height: normal;
+  color: white;
+}
+:host ::ng-deep .ant-avatar {
+  margin-top: 16px;
+  margin-right: 16px;
+}
+
+.card-container ::ng-deep .ant-tabs-card .ant-tabs-content {
+  height: 120px;
+  margin-top: -16px;
+}
+
+.card-container ::ng-deep .ant-tabs-card .ant-tabs-content .ant-tabs-tabpane {
+  background: #fff;
+  padding: 16px;
+}
+
+.card-container ::ng-deep .ant-tabs-card .ant-tabs-bar {
+  border-color: #fff;
+}
+
+.card-container ::ng-deep .ant-tabs-card .ant-tabs-bar .ant-tabs-tab {
+  border-color: transparent;
+  background: transparent;
+}
+
+.card-container ::ng-deep .ant-tabs-card .ant-tabs-bar .ant-tabs-tab-active {
+  border-color: #fff;
+  background: #fff;
+}
+
